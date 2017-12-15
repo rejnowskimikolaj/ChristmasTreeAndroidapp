@@ -38,4 +38,13 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.2.0'
     compile 'com.android.support:design:25.2.0'
     compile 'com.android.support:support-v4:25.2.0'
+    allprojects {
+        repositories {
+
+            maven { url "https://jitpack.io" }
+        }
+    }
+    compile 'com.github.jetradarmobile:android-snowfall:1.1.6'
+
+
 }

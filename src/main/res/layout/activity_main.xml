@@ -22,7 +22,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
             <ImageView
-                android:background="@color/colorPrimary"
+                android:background="@color/treeBackground"
                 android:id="@+id/fillView"
                 android:layout_gravity="bottom"
                 android:layout_width="match_parent"
@@ -43,6 +43,9 @@
                 android:layout_gravity="center_vertical"
                 android:rotation="270"
                 android:visibility="visible" />
+            <com.jetradarmobile.snowfall.SnowfallView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
         </FrameLayout>
 
 

@@ -21,5 +21,4 @@ public interface TreeApiClient {
     @GET("getlevel")
     Call<Frame> getFrame();
 
-
 }

@@ -7,9 +7,9 @@ import com.example.root.christmastree.retrofit.TreeApiClient;
 
 import java.io.IOException;
 
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Response;
+
 
 /**
  * Created by root on 12/15/17.

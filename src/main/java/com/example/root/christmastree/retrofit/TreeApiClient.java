@@ -5,7 +5,9 @@ import com.example.root.christmastree.SendFrameResponse;
 
 import retrofit2.Call;
 import retrofit2.Response;
+import retrofit2.http.Body;
 import retrofit2.http.GET;
+import retrofit2.http.POST;
 
 /**
  * Created by root on 12/15/17.
@@ -13,8 +15,8 @@ import retrofit2.http.GET;
 
 public interface TreeApiClient {
 
-    @GET("setlevel")
-    Call<SendFrameResponse> sendFrame(Frame frame);
+    @POST("setlevel")
+    Call<SendFrameResponse> sendFrame(@Body Frame frame);
 
     @GET("getlevel")
     Call<Frame> getFrame();
